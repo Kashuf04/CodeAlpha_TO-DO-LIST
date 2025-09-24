@@ -85,8 +85,8 @@ tasks.forEach((task,index) =>{
     <p>${task.text}</p>
     </div>
     <div class="icons">
-    <img src="img/edit.png" onClick="editTask(${index})" />
-    <img src="img/bin.png" onClick="deleteTask(${index})" />
+    <img src="edit.png" onClick="editTask(${index})" />
+    <img src="bin.png" onClick="deleteTask(${index})" />
     </div>
     </div>
     `;
@@ -143,3 +143,4 @@ fire(0.1, {
 });
 
 };
+
